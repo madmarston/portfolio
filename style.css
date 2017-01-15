@@ -1,0 +1,135 @@
+
+
+/*HEADER-LEFT*/
+.header {
+  color: #fff;
+  background: #000019;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .header .row {
+    display: inline;
+
+  }
+}
+
+.header-left {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.header-left ul {
+  text-decoration: none;
+}
+
+.header-left li {
+  display: inline-block;
+}
+
+.headshot {
+  border-radius: 40%;
+  margin-top: 6px;
+  width: 60px;
+
+  margin: 10px 10px 10px 0;
+}
+
+.title {
+  font-size: 1.7em;
+
+}
+
+/*HEADER-RIGHT*/
+.header-right {
+  padding-top: 30px;
+}
+
+.header-right ul {
+  list-style: none;
+  margin-top: 25px;
+  float: right;
+}
+
+.header-right li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.header-right a {
+  color: #fff;
+}
+
+.header-right a:hover {
+  color: #96d2ec;
+  background: transparent;
+  text-decoration: none;
+}
+
+/*MAIN*/
+.main {
+  background-image: url(images/ocean.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  vertical-align: top;
+  border-bottom: 10px solid #000019;
+}
+
+.main h2 {
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: 100px;
+  color: #FF7F50;
+}
+
+.main p {
+  font-size: 2em;
+  color: #FF7F50;
+  max-width: 500px;
+}
+
+
+/*SUPPORTING*/
+.supporting {
+  text-align: center;
+  padding: 20px;
+  color: #000019;
+}
+
+.supporting img {
+  max-width: 150px;
+}
+
+.supporting img:hover {
+  color: #fff;
+  background-color: #fff;
+}
+
+.supporting a {
+  text-decoration: none;
+  cursor: hand;
+}
+
+.supporting a:hover {
+  text-decoration: none;
+  color: #96d2ec;
+}
+
+.supporting h2 {
+  color: #000019;
+  margin: 0;
+}
+
+/*FOOTER*/
+.footer {
+  background: #000019;
+  color: #fff;
+  height: 30px;
+  width: 100%;
+}
+
+.footer .copy {
+  float: right;
+  margin-top: 5px;
+}
