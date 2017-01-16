@@ -1,17 +1,12 @@
-
+html, body {
+  background: #fff;
+}
 
 /*HEADER-LEFT*/
 .header {
-  color: #fff;
-  background: #000019;
+  position: fixed;
+  background: #96d2ec;
   width: 100%;
-}
-
-@media (max-width: 992px) {
-  .header .row {
-    display: inline;
-
-  }
 }
 
 .header-left {
@@ -25,19 +20,18 @@
 
 .header-left li {
   display: inline-block;
+  color: #fff;
 }
 
 .headshot {
   border-radius: 40%;
   margin-top: 6px;
   width: 60px;
-
   margin: 10px 10px 10px 0;
 }
 
 .title {
   font-size: 1.7em;
-
 }
 
 /*HEADER-RIGHT*/
@@ -58,28 +52,28 @@
 
 .header-right a {
   color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 .header-right a:hover {
-  color: #96d2ec;
-  background: transparent;
   text-decoration: none;
+  color: #808080;
+  cursor: pointer;
 }
 
 /*MAIN*/
 .main {
-  background-image: url(images/ocean.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 700px;
   vertical-align: top;
-  border-bottom: 10px solid #000019;
+  padding: 30px 0;
+  height: 450px;
+  padding: 100px 0;
 }
 
 .main h2 {
   font-size: 3em;
   font-weight: 700;
-  padding-top: 100px;
+  padding-top: 75px;
   color: #FF7F50;
 }
 
@@ -94,7 +88,7 @@
 .supporting {
   text-align: center;
   padding: 20px;
-  color: #000019;
+  color: #808080;
 }
 
 .supporting img {
@@ -103,33 +97,44 @@
 
 .supporting img:hover {
   color: #fff;
-  background-color: #fff;
 }
 
 .supporting a {
+  color: #808080;
   text-decoration: none;
-  cursor: hand;
 }
 
 .supporting a:hover {
   text-decoration: none;
   color: #96d2ec;
+  cursor: pointer;
 }
 
-.supporting h2 {
-  color: #000019;
-  margin: 0;
+.supporting h3 {
+  margin: 15px 0 25px;
+  text-transform: uppercase;
+  font-size: 24px;
 }
 
 /*FOOTER*/
 .footer {
-  background: #000019;
   color: #fff;
   height: 30px;
   width: 100%;
+  font-size: 1em;
+}
+
+.footer{
+    position:fixed;
+    height:40px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    background-color: #96d2ec;
 }
 
 .footer .copy {
   float: right;
-  margin-top: 5px;
+  margin: 10px 0 10px;
 }
